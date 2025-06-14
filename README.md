@@ -1,13 +1,13 @@
-# 🛍️ Web3 dApp
+# 🛍️ Web3 DApp
 
-Aplikasi Web3 sederhana yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
+Aplikasi Web3 (Decentralized Application) sederhana yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
 
 ## 📁 Struktur Folder
 
 ```
 project-root/
-├── solidity/         # Smart contract + script deploy
-└── react-dapp/       # Frontend React (dApp)
+├── react-dapp/       # Frontend React (dApp)
+└── solidity/         # Smart contract + script deploy
 ```
 
 ---
