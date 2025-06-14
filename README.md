@@ -92,7 +92,7 @@ Aplikasi akan tersedia di `http://localhost:5173`
 
 ## 🦊 Hubungkan Metamask
 
-1. **Install Metamask** di [metamask.io](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+1. **Install Extension Metamask** di [metamask.io](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 2. **Import Akun** dari terminal Hardhat:
 
    - Import Account
