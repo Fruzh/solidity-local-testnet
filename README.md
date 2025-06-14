@@ -2,6 +2,17 @@
 
 Aplikasi Web3 (Decentralized Application) simple yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
 
+---
+
+## 🖼️ Preview Website
+**Transaction request**
+![Verifikasi](https://raw.githubusercontent.com/Fruzh/solidity-local-testnet/refs/heads/master/react/src/assets/transaction_request.png)
+
+**Transaction successfully**
+![Verifikasi](https://raw.githubusercontent.com/Fruzh/solidity-local-testnet/refs/heads/master/react/src/assets/transaction_successfully.png)
+
+---
+
 ## 📁 Struktur Folder
 
 ```
