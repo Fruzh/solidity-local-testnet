@@ -1,4 +1,4 @@
-# 🛍️ Web3 DApp
+![image](https://github.com/user-attachments/assets/ca0819ef-e90d-4521-991a-6a492ce13498)# 🛍️ Web3 DApp
 
 Aplikasi Web3 (Decentralized Application) simple yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
 
@@ -6,10 +6,10 @@ Aplikasi Web3 (Decentralized Application) simple yang memungkinkan pengguna memb
 
 ## 🖼️ Preview Website
 **Transaction request**
-![Verifikasi](https://raw.githubusercontent.com/Fruzh/solidity-local-testnet/refs/heads/master/react/src/assets/transaction_request.png)
+![Request](https://raw.githubusercontent.com/Fruzh/solidity-local-testnet/refs/heads/master/react-dapp/src/assets/transaction_request.png)
 
 **Transaction successfully**
-![Verifikasi](https://raw.githubusercontent.com/Fruzh/solidity-local-testnet/refs/heads/master/react/src/assets/transaction_successfully.png)
+![Success](https://raw.githubusercontent.com/Fruzh/asolidity-local-testnet/refs/heads/master/react-dapp/src/assets/transaction_successfully.png)
 
 ---
 
