@@ -1,4 +1,4 @@
-# 🛍️ TokoDigital dApp
+# 🛍️ Web3 dApp
 
 Aplikasi Web3 sederhana yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
 
