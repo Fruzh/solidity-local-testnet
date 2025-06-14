@@ -1,6 +1,6 @@
 # 🛍️ Web3 DApp
 
-Aplikasi Web3 (Decentralized Application) sederhana yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
+Aplikasi Web3 (Decentralized Application) simple yang memungkinkan pengguna membeli produk digital (E-Book JavaScript) menggunakan Ethereum di jaringan lokal Hardhat.
 
 ## 📁 Struktur Folder
 
