@@ -41,12 +41,22 @@ git clone https://github.com/Fruzh/solidity-local-testnet.git
 cd solidity-local-testnet
 ```
 
-### 2. Jalankan Local Blockchain (Hardhat)
-
+### 2. 📦 Install Dependency
+**Untuk smart contract (Hardhat):**
 ```bash
 cd solidity
 npm install
-npx hardhat node
+```
+
+**Jika belum pernah install Hardhat di proyek ini:**
+```bash
+npm install --save-dev hardhat
+```
+
+**Untuk frontend React:**
+```bash
+cd ../react-dapp
+npm install
 ```
 
 Ini akan menjalankan jaringan lokal di `http://127.0.0.1:8545` dan menampilkan 20 akun beserta private key-nya.
@@ -57,24 +67,46 @@ Contoh akun:
 Account #0: 0x5Fb... (Private Key: 0xabc...)
 ```
 
-**Jangan tutup terminal ini!**
+---
+
+## 🦊 Hubungkan Metamask
+
+1. **Install Extension Metamask** di [metamask.io](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+2. **Import Akun** dari terminal Hardhat:
+   - Import akun dengan Private Key:
+   **Account → Import Account**
+   - Tempelkan salah satu Private Key dari Hardhat
+
+3. **Tambahkan Network Lokal:**
+
+   - Network Name: `Hardhat`
+   - New RPC URL: `http://127.0.0.1:8545`
+   - Chain ID: `31337`
+   - Currency Symbol: `ETH`
+
+4. Pilih jaringan "Hardhat" di Metamask.
 
 ---
 
-### 3. Deploy Smart Contract
+## 📦 Deploy Smart Contract
+
+```bash
+cd solidity
+npx hardhat node
+```
 
 Buka terminal baru:
 
 ```bash
-cd solidity
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
 Ini akan:
 
 - Deploy `TokoDigital.sol`
-- Generate file `contract-address.json`
+- Generate file `contract-address.json` dan `contract-abi.json`
 - Simpan alamat contract ke: `react-dapp/src/contracts/contract-address.json`
+- Simpan ABI ke:  `react-dapp/src/contracts/contract-abi.json`
 
 ---
 
@@ -87,25 +119,6 @@ npm run dev
 ```
 
 Aplikasi akan tersedia di `http://localhost:5173`
-
----
-
-## 🦊 Hubungkan Metamask
-
-1. **Install Extension Metamask** di [metamask.io](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
-2. **Import Akun** dari terminal Hardhat:
-
-   - Import Account
-   - Tempelkan salah satu Private Key dari Hardhat
-
-3. **Tambahkan Network Lokal:**
-
-   - Network Name: `Hardhat`
-   - New RPC URL: `http://127.0.0.1:8545`
-   - Chain ID: `31337`
-   - Currency Symbol: `ETH`
-
-4. Pilih jaringan "Hardhat" di Metamask.
 
 ---
 
